@@ -35,8 +35,10 @@ Zernike moments are powerful region-based shape descriptors that are invariant a
 ## iii)Classification :
 In this process , we need to train a Classifier which can identify the buildings, the trees and most importantly, the free land. The Zernike moments used by the above method will be used as features for these segments. The classifier is trained with labels as 'buildings','trees','water','free land' and 'roads'. After the training , We only need to find the part coming under 'Free Land' label.
 
+
 # 3. Finding the Number of Trees to be planted:
 We will be finding the pollution level of the given area . According to that level, we will find the number of trees required to bring that particular level to normal.
 
 
 
+Thanks to abhishektyagi2912 for this guiding me for this project

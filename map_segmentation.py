@@ -76,14 +76,14 @@ for x in range(cols):
                                             'maptype': 'satellite',
                                             'sensor': 'false',
                                             'scale': scale,
-                                            'key': 'AIzaSyA_d4uV3HqPPWbCb77VhXNYn5UcXRLAiVc'})
+                                            'key': 'YOUR_API_KEY'})
         urlparamsmaps = urllib.parse.urlencode({'center': position,
                                                 'zoom': str(zoom),
                                                 'size': '%dx%d' % (largura, alturaplus),
                                                 'maptype': 'roadmap',
                                                 'sensor': 'false',
                                                 'scale': scale,
-                                                'key': 'AIzaSyA_d4uV3HqPPWbCb77VhXNYn5UcXRLAiVc'})
+                                                'key': 'YOUR_API_KEY'})
         url = 'http://maps.google.com/maps/api/staticmap?' + urlparams
         url1 = 'http://maps.google.com/maps/api/staticmap?' + urlparamsmaps
         f = urllib.request.urlopen(url)

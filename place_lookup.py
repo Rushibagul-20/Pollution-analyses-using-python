@@ -5,7 +5,7 @@ import requests
 def find_coordinates(query):
 
     main_api = 'https://maps.googleapis.com/maps/api/place/textsearch/json?'
-    url = main_api + urllib.parse.urlencode({'query': query}) + '&key=AIzaSyDlBGiGA0q_iffRPR9Ni1rve2pRbjmKJak'
+    url = main_api + urllib.parse.urlencode({'query': query}) + 'YOUR_API_KEY'
 
     json_data = requests.get(url).json()
     json_status = json_data['status']

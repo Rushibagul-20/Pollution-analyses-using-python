@@ -41,4 +41,4 @@ We will be finding the pollution level of the given area . According to that lev
 
 
 
-Thanks to abhishektyagi2912 for this guiding me for this project
+Thanks to abhishektyagi2912 for guiding me for this project

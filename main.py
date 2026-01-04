@@ -120,7 +120,7 @@ def air_pollution_core(ullat, ullon, lrlat, lrlon, results):
                                                 'maptype': 'satellite',
                                                 'sensor': 'false',
                                                 'scale': scale,
-                                                'key': 'AIzaSyCyfZk5RPJybfysnTHkLjqvdK1lAtQ6oFo'})
+                                                'key': 'YOUR_API_KEY'})
             url = 'http://maps.google.com/maps/api/staticmap?' + urlparams
             f = urllib.request.urlopen(url)
             image = io.BytesIO(f.read())
